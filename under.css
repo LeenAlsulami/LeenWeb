@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgba(66, 47, 47, 0.7);
-  --overlay-color: rgba(192, 168, 168, 0.85);
+  --primary-color: rgba(0, 0, 0, 0.1);
+  --overlay-color: rgba(250, 250, 250, 0.85);
 }
 
 * {
@@ -12,20 +12,20 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.6;
+  padding: 3px;
 }
 
 .container-h {
   width: 150%;
-  margin: auto;
+  margin: 0;
   overflow: hidden;
-  padding: 0 3rem;
 }
 
 .showcase {
   background-color: var(--primary-color);
   color: #fff;
   height: 100vh;
-  width: 100;
+  width: 100%;
   position: relative;
 }
 .showcase::before {
@@ -48,8 +48,10 @@ body {
 }
 
 .showcase h1 {
-  font-size: 4rem;
-  width: 1500px !important;
+  font-size: 1.3rem;
+  width: 400 !important;
+  margin-left: 100px !important;
+  align-items: center;
 }
 
 .showcase p {
