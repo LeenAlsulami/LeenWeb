@@ -12,11 +12,12 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.6;
+  padding: 3px;
 }
 
 .container-h {
   width: 150%;
-  margin: auto;
+  margin: 50[x];
   overflow: hidden;
   padding: 0 3rem;
 }
@@ -25,7 +26,7 @@ body {
   background-color: var(--primary-color);
   color: #fff;
   height: 100vh;
-  width: 100;
+  width: 100%;
   position: relative;
 }
 .showcase::before {
@@ -48,8 +49,10 @@ body {
 }
 
 .showcase h1 {
-  font-size: 4rem;
+  font-size: 1.7rem;
   width: 1500px !important;
+  margin-left: 100px !important;
+  align-items: center;
 }
 
 .showcase p {
