@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Material Icon CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hamburger Menu</title>
+    <link rel="stylesheet" href="/Css/under.css" />
+    <link rel="stylesheet" href="/Js/under.js" />
+  </head>
+  <body>
+    <header class="showcase">
+      <div class="container-h showcase-inner">
+        <h1>This Page <span class="under"> </span></h1>
+        <p></p>
+        <a href="./index.html" class="btn"> Go back :(</a>
+      </div>
+    </header>
+
+    <script src="./Lib/jquery-3.6.0.min.js"></script>
+    <script src="./Lib/js/bootstrap.min.js"></script>
+    <!-- <script src="./Js/app.js"></script> -->
+    <script src="./Lib/typed.js"></script>
+    <script src="./Lib/jquery.waypoints.min.js"></script>
+  </body>
+
+  <script>
+    typed = new Typed(".under", {
+      strings: ["..", "Is Under Construction ..."],
+      smartBackspace: true,
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+      loopCount: Infinity,
+      backDelay: 1000,
+      startDelay: 1000,
+    });
+  </script>
+</html>
