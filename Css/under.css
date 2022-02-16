@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgba(66, 47, 47, 0.7);
-  --overlay-color: rgba(192, 168, 168, 0.85);
+  --primary-color: rgba(255, 255, 255, 0.2);
+  --overlay-color: rgba(252, 252, 252, 0.85);
 }
 
 * {
@@ -17,9 +17,8 @@ body {
 
 .container-h {
   width: 150%;
-  margin: 50[x];
+  margin: 0;
   overflow: hidden;
-  padding: 0 3rem;
 }
 
 .showcase {
@@ -49,8 +48,8 @@ body {
 }
 
 .showcase h1 {
-  font-size: 1.7rem;
-  width: 1500px !important;
+  font-size: 1.3rem;
+  width: 400 !important;
   margin-left: 100px !important;
   align-items: center;
 }
